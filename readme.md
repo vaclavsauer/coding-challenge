@@ -1,5 +1,5 @@
 # Programming Challenge
-Implementation of hiring interview programming challenge for <company name removed>.
+Implementation of hiring interview programming challenge for \<company name removed\>.
 
 ## Problem
 
@@ -13,7 +13,7 @@ Full challenge description is at file **_Engineer Coding Challenge.pdf_**
 
 ## Solution
 
-Solution was implemented using local sqlite3 database, which caches position of every Nth line (configurable through command line parameter) as well as position of already accessed lines.
+Solution was implemented using local sqlite3 database, which caches position of every Nth line (configurable through command line parameter) as well as positions lines requested in previous runs.
 
 When accessing specific line, the program gets nearest previous cached position and seeks from there.
 
